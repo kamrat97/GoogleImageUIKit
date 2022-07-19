@@ -18,7 +18,7 @@ class GoogleImageAPIService: GoogleImageAPISerciceProtocol {
     
     var parameters: [String: String] =  ["q" : "",
                                          "tbm" : "isch",
-                                         "api_key" : "66a88c170dde86e19993c9d2a40cbc510bea4604b5ee6e52ea0e1d6d88b0c21c",
+                                         "api_key" : "here your",
                                          "ijn" : "0"]
     
     func getImages(searchString: String, sizeParameter: SizeButton, languageParameter: String, countryParameter: String, complection: @escaping (Bool, MainView.Images?, String?) -> ()) {
